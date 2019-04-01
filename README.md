@@ -8,11 +8,11 @@ Add location of your local nexus to `build.gradle` in producer and consumer
 
 ### Producer
 
-- Build and publish contract with ./gradlew clean build publish
+- Build and publish contract with `./gradlew clean build publish`
 
 ### Consumer
 
-- Build and test with ./gradlew clean test
+- Build and test with `./gradlew clean test`
 
 ### Local Nexus Docker
 
