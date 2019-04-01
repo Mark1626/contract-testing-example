@@ -23,9 +23,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 @AutoConfigureJsonTesters
 @AutoConfigureStubRunner(
     ids = "com.example:producer:+:8080",
-//    ids = "com.example:beer-api-producer:0.0.1.BUILD-SNAPSHOT:8080",
-//    ids = "com.example:beer-common",
-//    properties = {"stubrunner.username=admin", "stubrunner.password=admin123"},
     stubsMode = StubsMode.REMOTE,
     deleteStubsAfterTest = false
 )
