@@ -16,7 +16,7 @@ import org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder;
 @SpringBootTest(webEnvironment = WebEnvironment.MOCK)
 @DirtiesContext
 @AutoConfigureMessageVerifier
-public abstract class TestBase {
+public abstract class DetailsBase {
 
   @Autowired
   private UserInfoController controller;

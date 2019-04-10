@@ -1,9 +1,9 @@
-package com.mark
+package com.mark.details
 
 import org.springframework.cloud.contract.spec.Contract
 
 Contract.make {
-    description "should return user info when called"
+    description "should return user info when called from login"
     request {
         method GET()
         url("/account") {

@@ -47,11 +47,12 @@ dependencies {
 }
 
 contracts {
-    baseClassForTests = 'com.mark.TestBase'
-//    packageWithBaseClasses = 'com.example'
-//    baseClassMappings {
-//        baseClassMapping(".*intoxication.*", "com.example.intoxication.BeerIntoxicationBase")
-//    }
+//    baseClassForTests = 'com.mark.TestBase'
+    packageWithBaseClasses = 'com.mark'
+    baseClassMappings {
+        baseClassMapping(".*login.*", "com.mark.LoginBase")
+        baseClassMapping(".*details.*", "com.mark.DetailsBase")
+    }
 }
 
 publishing {
