@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/account?name=mark&password=password123"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"name\":\"mark\",\"email\":\"mark@abc.com\",\"password\":\"password123\",\"id\":123,\"lastLoggedIn\":\"2019-01-01\",\"phoneNumber\":123}"
+  }
+}

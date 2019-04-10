@@ -1,7 +1,0 @@
-server:
-  port: 9090
-
-stubrunner:
-  repositoryRoot: url:\\to.your.local.nexus
-  username: your-username
-  password: your-password
