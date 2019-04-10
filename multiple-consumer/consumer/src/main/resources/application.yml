@@ -2,6 +2,6 @@ server:
   port: 9090
 
 stubrunner:
-  repositoryRoot: url:\\to.your.local.nexus
-  username: your-username
-  password: your-password
+  repositoryRoot: http://localhost:8081/repository/maven-public/
+  username: admin
+  password: admin123
