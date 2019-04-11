@@ -18,3 +18,5 @@ Add location of your local nexus to `build.gradle` in producer and consumer
 
 - Image used `https://hub.docker.com/r/sonatype/nexus3`
 - Start the image the replace references in both `build.gradle` in producer and consumer
+
+> Notes: The release tags represent different stages of contract testing
